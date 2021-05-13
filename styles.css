@@ -42,17 +42,18 @@ span {
 @media screen and (min-width: 900px) {
   .page {
     display: flex;
+    width: calc(100% - 1/3);
   }
 
   .navigation {
-    width: 33.33%;
+    width: calc(100% - 1/3);
   }
 
   .products {
-    width: 33.33%;
+    width: calc(100% - 1/3);
   }
 
   .news {
-    width: 33.33%;
+    width: calc(100% - 1/3);
   }
 }
