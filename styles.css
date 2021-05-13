@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+.navigation {
+  background-color: #ff7f50;
+  min-height: 200px;
+  display: flex;
+  flex-grow: 1;
+}
+
+.products {
+  background-color: #006400;
+  min-height: 200px;
+  display: flex;
+  flex-grow: 1;
+}
+
+.news {
+  background-color: #0ff;
+  min-height: 200px;
+  display: flex;
+  flex-grow: 1;
+}
+
+span {
+  font-family: Verdana;
+  padding: 8px;
+  background-color: #faebd7;
+  border-radius: 4px;
+  text-transform: lowercase;
+  margin: auto;
+}
+
+@media screen and (min-width: 600px) {
+  .section {
+    display: flex;
+    flex-grow: 2;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .page {
+    display: flex;
+  }
+
+  .navigation {
+    width: 33.3%;
+  }
+
+  .products {
+    width: 33.3%;
+  }
+
+  .news {
+    width: 33.3%;
+  }
+}
