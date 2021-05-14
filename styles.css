@@ -46,14 +46,14 @@ span {
   }
 
   .navigation {
-    width: calc(100% - 1/3);
+    flex-basis: auto;
   }
 
   .products {
-    width: calc(100% - 1/3);
+    flex-basis: auto;
   }
 
   .news {
-    width: calc(100% - 1/3);
+    flex-basis: auto;
   }
 }
